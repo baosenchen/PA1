@@ -114,8 +114,7 @@ public class GradeCalculator {
         String grade="0";
         //calculate final grade and the letter grade
         output=(total/check)*0.5+q1*0.125+q2*0.375;
-        output=(total/check)*0.5+q1*0.125+q2*0.375;
-        output=Math.round(output);
+        
              if(output<=100 && output>=90)
                 grade="A";
         if(output<90 && output>=80)
